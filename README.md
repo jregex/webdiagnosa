@@ -21,7 +21,8 @@ Web ini menggunakan framework laravel. info lebih lanjut bisa lihat dibawah :
 
 ## hasil
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<a href="https://raw.githubusercontent.com/jregex/web-desa/refs/heads/main/public/assets/user/img/sources/home.png" target="_blank"><img src="https://raw.githubusercontent.com/jregex/web-desa/refs/heads/main/public/assets/user/img/sources/home.png" width="500" alt="Home"></a>
+<a href="https://raw.githubusercontent.com/jregex/web-desa/refs/heads/main/public/assets/user/img/sources/about.png" target="_blank"><img src="https://raw.githubusercontent.com/jregex/web-desa/refs/heads/main/public/assets/user/img/sources/about.png" width="500" alt="Home"></a>
 
 ## cara install dan menggunakan
 

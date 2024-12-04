@@ -41,6 +41,6 @@ Route::group(['prefix' => '/admin', 'middleware' => 'user-check'], function () {
         Route::delete('/categories/{category}',  'delete_category')->name('categories.delete');
     });
 
-    Route::resource('/articles',ArticleController::class)->except(['edit']);
+    Route::resource('/articles',ArticleController::class)->except(['edit']);  //article
     Route::resource('/penduduk',PendudukController::class)->except(['edit']);
 });

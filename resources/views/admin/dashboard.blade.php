@@ -8,9 +8,9 @@
                     <div class="row">
                         <div class="col-8 py-3">
                             <div class="numbers">
-                                <p class="text-sm mb-0 text-uppercase font-weight-bold">Jumlah penduduk</p>
+                                <p class="text-sm mb-0 text-uppercase font-weight-bold">Percobaan</p>
                                 <h5 class="font-weight-bolder">
-                                    {{ $jml_penduduk }}
+                                    10
                                 </h5>
                             </div>
                         </div>

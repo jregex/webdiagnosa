@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Role;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
@@ -49,7 +50,20 @@ class UserController extends Controller
     }
     public function index()
     {
-        //
+        $data = [
+            'title'=>'List Users',
+        'users'=>User::with('role')->get()
+        ];
+        return view('admin.users.index',$data);
+    }
+
+    public function create()
+    {
+        $data = [
+            'title'=>'Add Users',
+            'roles'=>Role::get()
+        ];
+        return view('admin.users.create',$data);
     }
     public function logout(Request $request)
     {

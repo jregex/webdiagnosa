@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/admin/assets') }}/img/tidore.png">
-    <link rel="icon" type="image/icon-x" href="{{ asset('assets/admin/assets') }}/img/tidore.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/admin/assets') }}/img/diagnose.ico">
+    <link rel="icon" type="image/icon-x" href="{{ asset('assets/admin/assets') }}/img/diagnose.ico">
     <title>
-        {{ $title ?? 'Home' }} | Web Kelurahan Topo
+        {{ $title ?? 'Home' }} | Web Diagnosa
     </title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -15,8 +15,8 @@
     <link href="{{ asset('assets/admin/assets') }}/css/nucleo-icons.css" rel="stylesheet" />
     <link href="{{ asset('assets/admin/assets') }}/css/nucleo-svg.css" rel="stylesheet" />
     <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-    <link href="{{ asset('assets/admin/assets') }}/css/nucleo-svg.css" rel="stylesheet" />
 
     <!-- DataTables CSS -->
     @yield('datatables-css')
